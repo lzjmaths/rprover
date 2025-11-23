@@ -1,0 +1,35 @@
+method, hyperparameter, TP, TN, FP, FN, total_reviews, avg_inp_tokens, avg_opt_tokens, note
+standard, reasoning, 183, 16, 95, 6, 0.144, 300, 1557.74, 1245.79,
+
+simple pessimistic,pes@1,178,15,96,11,300,1557.74,1270.74
+simple pessimistic,pes@2,177,21,90,12,600,1557.74,1270.74
+simple pessimistic,pes@3,175,26,85,14,900,1557.74,1270.74
+simple pessimistic,pes@4,172,29,82,17,1200,1557.74,1270.74
+simple pessimistic,pes@5,170,31,80,19,1500,1557.74,1270.74
+simple pessimistic,pes@6,169,35,76,20,1800,1557.74,1270.74
+simple pessimistic,pes@7,166,37,74,23,2100,1557.74,1270.74
+simple pessimistic,pes@8,165,38,73,24,2400,1557.74,1270.74
+simple pessimistic,pes@9,165,40,71,24,2700,1557.74,1270.74
+simple pessimistic,pes@10,164,41,70,25,3000,1557.74,1270.74
+simple pessimistic,pes@11,162,43,68,27,3300,1557.74,1270.74
+simple pessimistic,pes@12,160,43,68,29,3600,1557.74,1270.74
+simple pessimistic,pes@13,158,45,66,31,3900,1557.74,1270.74
+simple pessimistic,pes@14,157,47,64,32,4200,1557.74,1270.74
+simple pessimistic,pes@15,156,49,62,33,4500,1557.74,1270.74
+
+
+vertical pessimistic, vp@4,161,68,43,28,2976,1984.97,970.09,
+vertical pessimistic, vp@8,164,53,58,25,1561,2061.37,1109.18,
+vertical pessimistic, vp@12,173,46,65,16,1092,2135.05,1226.49,
+vertical pessimistic, vp@16,174,45,66,15,853,2195.75,1288.96,
+vertical pessimistic, vp@20,175,41,70,14,712,2254.56,1324.35,
+vertical pessimistic, vp@24,181,37,74,8,620,2312.52,1382.11,
+vertical pessimistic, vp@28,181,33,78,8,553,2367.79,1334.99,
+vertical pessimistic, vp@32,175,39,72,14,494,2425.29,1437.23,
+vertical pessimistic, vp@36,176,24,87,13,451,2483.27,1444.0,
+
+progressive, progressive@1/4,182,15,96,7,300,1557.74,1244.19
+progressive, progressive@2/4,171,45,66,18,855,1872.36,1363.42
+progressive, progressive@3/4,154,65,46,35,1747,1828.58,1246.21
+progressive, progressive@4/4,143,81,30,46,2804,1804.29,1154.65
+progressive, progressive@5/4,133,88,23,56,3781,1792.01,1103.97,

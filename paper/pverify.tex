@@ -260,9 +260,11 @@ The statistical results of our case study can be found in Table~\ref{table:case-
         \toprule
         {\bf Model} & {\bf Dataset} & {\bf Critical} & {\bf Minor} & {\bf Nonsense} \\
         \midrule
-        GPT-5-mini & IMO-GradingBench & 8 & 0 & 1 \\
+        GPT-5 & IMO-GradingBench & 9 & 9 & 2 \\
         \midrule
-        Qwen3-30B-A3B & IMO-GradingBench & 3 & 2 & 10 \\
+        GPT-5-mini & IMO-GradingBench & 5 & 5 & 3 \\
+        \midrule
+        Qwen3-30B-A3B & IMO-GradingBench & 1 & 1 & 13 \\
         \bottomrule
     \end{tabularx}
       \caption{Manual review of FN cases in pessimistic verification. The classification is based on whether the judgments provided by the verifier in these FN cases are critical, minor, or nonsense.}\label{table:case-studies}
